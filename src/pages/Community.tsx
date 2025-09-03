@@ -252,7 +252,7 @@ export default function CommunityPage() {
     >
       {/* Grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] -z-10" />
-      
+
       <Header />
 
       <div className="container mx-auto px-4 py-8 relative z-10">
@@ -303,7 +303,7 @@ export default function CommunityPage() {
 
             {/* Fixed Category Tabs */}
             <div className="relative z-20">
-              <Tabs 
+              <Tabs
                 value={selectedCategory}
                 onValueChange={(value) => {
                   setSelectedCategory(value)
@@ -466,7 +466,7 @@ export default function CommunityPage() {
                 <p className="text-blue-200 mb-6">
                   Help the community grow by sharing your amazing components and designs
                 </p>
-                <Button 
+                <Button
                   className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700"
                   onClick={() => {
                     toast.warning("Maintenance Notice", {
